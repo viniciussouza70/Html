@@ -2,28 +2,137 @@ body{
     background-color: #f2fffc;
     font-family: "Crimson Text", "serif";
     font-size: 20px;
+    line-height: 1.5;
 }
-main h1{
-    font-size: 60px;
-    background-color: rgb(120, 30, 60);
-    color: #fafffa;
-    text-align: center;
-    font-family: "Open Sans Condensed", sans-serif;
-    padding: 20px;
-    margin: 0;
+/*alterações dos exercícios*/
+h1 {
+    text-transform: uppercase;
 }
 
-h2{
-    font-size: 40px;
-    font-family: "Open Sans Condensed", sans-serif;
+nav a {
+    text-transform: lowercase;
+}
+
+/*end*/
+
+nav a {
+    text-transform: lowercase;
+}
+
+.fiat{
+    float: right;
+}
+
+.petro{
+    float: left;
+}
+
+aside, img {
+    float: right;
+    width: 15%;
+}
+
+aside{
+    clear: right; width: 15%;
+    position: relative;
+    /* box-sizing: border-box; */
+    top: 370px;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+footer{
+    clear: both;
+}
+
+aside,
+.minha-foto{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-block-end: 10px solid black;
+
+}
+
+.menus{
+    box-sizing: border-box;
+    float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.minha-foto, .navegacao-site {
+    box-sizing: border-box;
+    float: right;
+    border-left: 10px solid black;
+    /* border-bottom: 10px solid black; */
+}
+
+.rodape-pagina {
+    clear: left;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+main {
+    width: 85%;
+}
+
+
+
+
+main h1{
+    background-color: rgb(120, 30, 60);
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 10px, solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 aside{
     background-color: #3C1C3D;
     color: #F2FFFC;
-    text-align: center;
-    padding: 30px;
-    font-family: "Open Sans Condensed", "sans-serif"
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+}
+
+main a {
+	color: #851944;
+}
+
+.icones-redes-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedIn{
+    background-image: url(linkedin.png);
 }
 
 nav h1{
@@ -34,24 +143,51 @@ nav h1{
 footer{
     background-color: #000000;
     color: #F2FFFC;
-    padding: 20px;
 }
 
 nav a{
-    color: inherit;
+    color: #F2FFFC;
 }
 
 p{
-    text-align: justify;
+ text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.icones-redes-sociais li{
+    display: inline-block;
+}
+
+
+
+aside {
+	text-align: center;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 
 strong{
     font-weight: 600;
+    display: block;
 }
 
 em{
     font-style: italic;
 }
+
 blockquote{
     background-color: #D3DDDA;
     padding: 16px;
@@ -59,5 +195,10 @@ blockquote{
     width: 250px;
     margin: 0;
     box-sizing: border-box;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
